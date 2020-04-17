@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Zopop Business</string>
+    <string name="console">Console</string>
+    <string name="manage">Manage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_customer">Search Customer</string>
+    <string name="add_customer">Add Customer</string>
+</resources>

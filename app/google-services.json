@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "824247808894",
+    "firebase_url": "https://get-zopop.firebaseio.com",
+    "project_id": "get-zopop",
+    "storage_bucket": "get-zopop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824247808894:android:75827e89479b71e9b3b92f",
+        "android_client_info": {
+          "package_name": "com.getzopop.business"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824247808894-91uu9r715eakcm1jufoh3hqfamqscqmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getzopop.business",
+            "certificate_hash": "541c9f633a976703e3c227082f6c0591490a25cc"
+          }
+        },
+        {
+          "client_id": "824247808894-5ekgk6gro78bkfkr7l7i79fod8d5fhoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY64teseoocJyOG0iJ_Yp_thNwGJiR0qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824247808894-5ekgk6gro78bkfkr7l7i79fod8d5fhoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
