@@ -7,4 +7,116 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="search_customer">Search Customer</string>
     <string name="add_customer">Add Customer</string>
+    <string name="account">Account</string>
+    <string name="home">Home</string>
+    <string name="business_description">Business Description</string>
+    <string name="business_name">Business Name</string>
+    <string name="save">Save</string>
+    <string name="business_category">Business Category</string>
+    <string name="business_details">Business Details</string>
+    <string name="business_logo_amp_banner"><![CDATA[Do you have business Logo & banner?]]></string>
+    <string name="create_outlet">Create Outlet</string>
+    <string name="outlet_s_banner">Outlet\'s Banner</string>
+    <string name="outlet_name_amp_address"><![CDATA[Outlet Name & Address]]></string>
+    <string name="outlet_name">Outlet Name*</string>
+    <string name="outlet_google_location">Outlet Google Location*</string>
+    <string name="outlet_area">Outlet Area*</string>
+    <string name="outlet_address_line_1">Outlet Address Line 1*</string>
+    <string name="outlet_address_line_2">Outlet Address Line 2</string>
+    <string name="outlet_city">Outlet City*</string>
+    <string name="outlet_state">Outlet State*</string>
+    <string name="outlet_area_pincode">Outlet Area Pincode*</string>
+    <string name="outlet_contact_details">Outlet Contact Details</string>
+    <string name="outlet_phone_number_1">Outlet Phone Number 1*</string>
+    <string name="outlet_phone_number_2">Outlet Phone Number 2</string>
+    <string name="outlet_phone_number_3">Outlet Phone Number 3</string>
+    <string name="outlet_whatsapp_number">Outlet WhatsApp Number</string>
+    <string name="outlet_email_address">Outlet Email Address</string>
+    <string name="outlet_website">Outlet Website</string>
+    <string name="outlet_instagram_profile_link">Outlet Instagram Profile Link</string>
+    <string name="outlet_facebook_profile_link">Outlet Facebook Profile Link</string>
+    <string name="outlet_twitter_profile_link">Outlet Twitter Profile Link</string>
+    <string name="outlet_youtube_channel_link">Outlet Youtube Channel Link</string>
+
+    <string-array name="indore_area_list">
+
+        <item>AB Road</item>
+        <item>Abhinandan Nagar Road</item>
+        <item>Alok Nagar Row Houses</item>
+        <item>Annapurna Road</item>
+        <item>Anoop Nagar</item>
+        <item>Ashish Nagar</item>
+        <item>Bairathi Colony</item>
+        <item>Bengali Square</item>
+        <item>Bhagirath Pura</item>
+        <item>Bicholi Hapsi Road</item>
+        <item>Bicholi Mardana Road</item>
+        <item>Bypass Road</item>
+        <item>Chhavni</item>
+        <item>Dewas Naka</item>
+        <item>Dhar Road</item>
+        <item>Girdhar Nagar</item>
+        <item>IDA Scheme 140</item>
+        <item>Indore - Pithampur Road</item>
+        <item>Jail Road</item>
+        <item>Jawahar Marg</item>
+        <item>Kalindi Kunj</item>
+        <item>Kalindi Mid Town</item>
+        <item>Kanadia Road</item>
+        <item>Keshar Bagh Road</item>
+        <item>Khajrana Road</item>
+        <item>Khajuri Bazaar</item>
+        <item>Khandwa Road</item>
+        <item>Khatiwala Tank</item>
+        <item>Lokmanya Nagar</item>
+        <item>Maanavta Nagar</item>
+        <item>Manik Bagh Road</item>
+        <item>Manishpuri</item>
+        <item>Manorama Ganj</item>
+        <item>MG Road</item>
+        <item>Morya Hills</item>
+        <item>MR 10 Road</item>
+        <item>MTH Compound</item>
+        <item>Nai Duniya</item>
+        <item>Nanda Nagar</item>
+        <item>New Palasia</item>
+        <item>Nihalpur</item>
+        <item>Niranjanpur Circle</item>
+        <item>Old Palasia</item>
+        <item>Palakhedi</item>
+        <item>Pardesi Pura</item>
+        <item>Pipliya Road</item>
+        <item>Pipliyahana Square</item>
+        <item>Race Course Road</item>
+        <item>Rajendra Nagar</item>
+        <item>Rajwada</item>
+        <item>Rani Sati Gate</item>
+        <item>Regional Park Road</item>
+        <item>Ring Road</item>
+        <item>RNT Marg</item>
+        <item>Sainath Colony</item>
+        <item>Sanvid Nagar</item>
+        <item>Sapna Sangeeta Road</item>
+        <item>Sarv Suvidha Nagar</item>
+        <item>Scheme No.54</item>
+        <item>Shiv Shakti Nagar Road</item>
+        <item>Shree Nagar Extension</item>
+        <item>Siyaganj</item>
+        <item>Sneh Nagar</item>
+        <item>Snehlataganj</item>
+        <item>South Tukoganj</item>
+        <item>Super Corridor</item>
+        <item>Telephone Nagar</item>
+        <item>Tilak Nagar Main Road</item>
+        <item>Tukoganj</item>
+        <item>Ujjain Road</item>
+        <item>Vandana Nagar Main Road</item>
+        <item>Vijay Nagar</item>
+        <item>Vishnu Puri Colony</item>
+        <item>White Church Colony</item>
+        <item>Yeshwant Niwas Road</item>
+        <item>YN Road</item>
+
+    </string-array>
+
 </resources>
