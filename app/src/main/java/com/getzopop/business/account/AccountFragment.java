@@ -9,16 +9,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.getzopop.business.R;
 import com.getzopop.business.account.post.ManagePostActivity;
 import com.getzopop.business.account.product.ManageProductActivity;
+import com.getzopop.business.account.profile.ViewProfileActivity;
 
 public class AccountFragment extends Fragment implements View.OnClickListener {
 
     private View view;
     private LinearLayout lhManagePost;
     private LinearLayout lhManageProduct;
+    private TextView tvViewEditProfile;
 
     public AccountFragment() {
     }
@@ -34,6 +37,8 @@ public class AccountFragment extends Fragment implements View.OnClickListener {
     private void initView() {
         lhManagePost = view.findViewById(R.id.lhManagePost);
         lhManageProduct = view.findViewById(R.id.lhManageProduct);
+        tvViewEditProfile = view.findViewById(R.id.tvViewEditProfile);
+
         lhManagePost.setOnClickListener(this);
         lhManageProduct.setOnClickListener(this);
     }
@@ -46,6 +51,10 @@ public class AccountFragment extends Fragment implements View.OnClickListener {
 
         if (v == lhManageProduct){
             startActivity(new Intent(getContext(), ManageProductActivity.class));
+        }
+
+        if (v == tvViewEditProfile){
+            startActivity(new Intent(getContext(), ViewProfileActivity.class));
         }
 
     }
