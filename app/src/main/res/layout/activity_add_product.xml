@@ -53,6 +53,7 @@
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ilProductBarcode"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -64,6 +65,7 @@
                 android:hint="Product Barcode">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etProductBarcode"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_condensed_regular" />
@@ -71,6 +73,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ilProductName"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -81,6 +84,7 @@
                 android:hint="Product Name">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etProductName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_condensed_regular" />
@@ -88,6 +92,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ilSelectProductCategory"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -98,6 +103,7 @@
                 android:hint="Select product category">
 
                 <AutoCompleteTextView
+                    android:id="@+id/selectProductCategory"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_condensed_regular" />
@@ -105,6 +111,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
+                android:id="@+id/tvAddCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
@@ -116,6 +123,7 @@
                 android:text="Add category"/>
 
             <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/ilSelectProductAttribute"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -126,6 +134,7 @@
                 android:hint="Select Product Attribute">
 
                 <AutoCompleteTextView
+                    android:id="@+id/selectProductAttribute"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_condensed_regular" />
@@ -133,6 +142,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
+                android:id="@+id/tvAddAttribute"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
@@ -144,6 +154,7 @@
                 android:text="Add Attribute"/>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ilProductSupplier"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -154,6 +165,7 @@
                 android:hint="Select Product Supplier">
 
                 <AutoCompleteTextView
+                    android:id="@+id/selectProductSupplier"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_condensed_regular" />
@@ -161,6 +173,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ilMRPprice"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -171,6 +184,7 @@
                 android:hint="Product MRP price">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etMRPPrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_condensed_regular" />
@@ -178,6 +192,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ilPurchasePrice"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -188,6 +203,7 @@
                 android:hint="Product purchase price">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPurchasePrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_condensed_regular" />
@@ -195,6 +211,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/ilProductPrice"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -205,6 +222,7 @@
                 android:hint="Product Sale Price">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etSalePrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_condensed_regular" />
@@ -222,6 +240,7 @@
                 android:hint="Product In-Stock">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etProductInStock"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_condensed_regular" />
@@ -229,6 +248,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardView"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="16dp">
@@ -239,6 +259,7 @@
     </ScrollView>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_condensed_bold"
