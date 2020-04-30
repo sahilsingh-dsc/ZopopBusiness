@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
-        <activity android:name=".account.product.AddProductActivity"></activity>
+        <activity android:name=".account.profile.ViewProfileActivity"></activity>
+        <activity android:name=".account.product.AddProductActivity" />
         <activity android:name=".account.product.ManageProductActivity" />
         <activity android:name=".account.post.CreateNewPostActivity" />
         <activity android:name=".account.post.ManagePostActivity" />
